@@ -1,0 +1,75 @@
+
+  html{
+    color: grey;
+    font-family:  'Roboto', sans-serif; 
+    /* Font stack: this shows an order of preference -- if they have arial, use it. If not, usehelvetica/. If they have neither, use general sans-serif. */
+    font-size: 15pt;
+  }
+
+  h1{
+    color: black;
+    letter-spacing: -0.02em;
+    text-indent: -1rem;
+    text-transform: uppercase;
+    font-family: "vista-slab", serif;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+ 
+  a{
+    text-decoration: none;
+  }
+
+  p{
+    font-size: 13pt;
+    line-height: 1.4;
+  }
+
+  body{
+    margin: 10%;
+  }
+
+  sup{
+    font-size: 0.6rem;
+  }
+
+  dfn{
+    font-weight: bold;
+    color:red;
+    text-transform: lowercase;
+  }
+
+  small{
+    font-weight: italic;
+  }
+
+  aside{
+    text-align: center;
+  }
+
+  cite{
+    text-align: right;
+    display: block;
+  }
+
+  article{
+    margin: 6rem 0;
+  }
+
+  section{
+    margin: 2.5em 0;
+  }
+
+  code{
+    color: steelblue;
+  }
+.fas{
+
+    color: red;
+}
+/* selector {
+    property-name: value;
+    another-property-name: value;
+  } */
+
