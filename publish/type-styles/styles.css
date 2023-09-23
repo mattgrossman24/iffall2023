@@ -1,0 +1,60 @@
+html{
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    color: rgb(121, 153, 187);
+    margin: 3%;
+    background-color: rgb(255, 251, 246);
+}
+
+.subheader{
+    font-size: 24px;
+    color: rgb(121, 153, 187);
+    text-indent: 1rem;
+    text-align: right;
+}
+.bold{
+    font-weight: bold;
+}
+.block{
+    float: right;
+}
+
+h1{ 
+    font-size: 64pt;
+    line-height: 0px;
+    color: rgb(14, 37, 75);
+    text-align: left;
+}
+span{
+    float: right;
+    font-size: 20pt;
+    color: rgb(121, 153, 187);
+    font-weight: normal;
+    text-transform: none;
+}
+h2{
+    font-family: 'Crimson Text', serif;
+    font-size: 32px;
+    line-height: 0px;
+}
+
+h3{
+    color: rgb(14, 37, 75);
+    font-size: 32px;
+    line-height: 20px;
+    text-indent: 1rem;
+    font-weight: normal;
+}
+
+p{
+    font-family: 'Crimson Text', serif;
+    color: black;
+    
+}
+
+footer{
+    color: rgb(14, 37, 75);
+    font-style: italic;
+    text-align: center;
+    font-weight: normal;
+}
