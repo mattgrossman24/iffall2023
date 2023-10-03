@@ -1,0 +1,22 @@
+header{
+    font-family: 'Lilita One', cursive;
+    font-size: 66px;
+
+}
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.grid li {
+    width: 150px;
+    padding: 0;
+    font-size: .8rem;
+    text-align: left;
+    display: inline-block;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
