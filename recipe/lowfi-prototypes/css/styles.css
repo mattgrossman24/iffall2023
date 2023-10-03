@@ -1,0 +1,13 @@
+.fullspread{
+    height: 540px;
+}
+
+.half{
+    height: 540px;
+}
+
+.grid li{
+
+    padding: 0;
+    display: inline-block;
+}
