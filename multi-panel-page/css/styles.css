@@ -1,0 +1,149 @@
+html{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header{
+    margin:0;
+    color: rgb(239, 227, 219);
+    text-align: center;
+    background-image: url(../img/fur.jpg);
+    background-size: cover;
+    background-position: center right;
+    /*background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+  
+body{
+    margin:0;
+}
+
+section{
+    margin:0;
+    
+}
+
+.sectiona{
+    background-color: #816347;
+}
+
+.sectionb{
+    background-color:#836c56;
+}
+
+h1, h2, h3, p{
+    margin:0;
+
+}
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: -2px;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 33px;
+    color: rgb(212, 189, 173);
+}
+
+h4{
+    font-size: 20px;
+    color: rgb(42, 29, 20);
+}
+
+p{
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 18px;
+    color: tan;
+}
+.column-container{
+    width: 960px;
+    margin: auto;
+    background-color: rgba(0,0, 0, 0);
+}
+
+header .column-container{
+    padding-top: 151px;
+    padding-bottom: 182px;
+}
+
+section .column-container{
+    padding-top: 40px;
+}
+
+.float{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 32px;
+}
+
+em{
+    font-style: italic;
+}
+
+#second-box{
+    padding-bottom:38px;
+}
+
+h4{
+    margin:0;
+    margin-bottom: 8px;
+}
+
+.grimage{
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    float: left;
+    margin-right: 12px;
+}
+
+.gridblock{
+    margin-top: -1px;
+    width: 50%;
+    margin-bottom: 22px;
+}
+
+.grid-construct{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    
+}
+
+.imgtext{
+    width: 430px;
+}
+
+.ctext{
+    text-align: center;
+    font-size: 26px;
+    width: 703px;
+    margin: auto;
+    margin-top: -1px;
+    line-height: 36px;
+}
+
+.sectionc{
+    background-color: rgb(116, 91, 75);
+    padding-bottom: 85px;
+}
+
+.c{
+    padding-top: 40px;
+    color:#5e4833;
+}
+
+footer{
+    background-color:#d6ba9e;
+    padding-bottom: 21px;
+}
