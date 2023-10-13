@@ -1,0 +1,22 @@
+img { 
+    max-width: 100%; 
+}
+
+body{
+    margin-left: auto;
+    width: 90%;
+    margin-right: auto;
+    max-width: 40rem;
+}
+
+html { font-size: 12pt; }
+  @media (min-width: 640px) {
+    html { font-size: 16pt; }
+  }
+  /*When the window width is a minimum of 640px, the base font-size for the document should be 16pt.*/
+
+@media (min-width: 640px){
+    .two-columns-example { display: flex; }
+    .two-columns-example > * {width: 50%; }
+}
+
