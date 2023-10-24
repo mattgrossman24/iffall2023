@@ -1,0 +1,175 @@
+html{
+    font-family:'Cormorant Garamond';
+   /* background-color: rgba(215, 243, 250, 0.371);*/
+}
+
+.title{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+@media (max-width: 1340px) {
+    .title { margin-bottom: 15px;;}
+  }
+
+.title { font-size: 10rem;}
+@media (max-width: 1715px) {
+    .title { font-size: 8rem;}
+  }
+  @media (max-width: 1377px) {
+    .title { font-size: 7rem;}
+  }
+  @media (max-width: 1205px) {
+    .title { font-size: 5.5rem;}
+  }
+
+  @media (min-width: 1885px) {
+    .title { font-size: 11rem;}
+  }
+
+ @media (max-width: 1340px) {
+    .recipe-info{flex-direction: column;}
+    .info-block{width: 30%}
+    .clock{width: 15% }
+  }
+.info-block {font-size: 1.7rem}
+  @media (max-width: 1083px) {
+    .info-block {font-size: 1.5rem;}
+  }
+/*When the window width is a minimum of 640px, the base font-size for the document should be 16pt.*/
+
+
+.header-stacking{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-illustration{
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+@media (max-width: 1340px){
+    .header-stacking{flex-direction: row-reverse;
+    align-content: center;
+    flex-wrap: first baseline;}
+    .info-block {font-size: 1.3rem;}
+    .top-illustration{width: 50%;
+    margin:0;
+    margin-right: 10%}
+}
+
+#full-body{
+    width: 75%;
+    margin: auto;
+}
+
+.info-block{
+    display: flex;
+    width: 80%;
+    height: 2rem;
+    justify-content: center;
+    padding: .8rem;
+    border: 1px solid black ;
+    font-family: "Delicious Handrawn";
+    /*
+    background-color: lightgray;
+     
+    padding: .5rem;
+     */
+    margin: 1rem;
+    
+    border-radius: 3rem;
+}
+
+
+
+.clock{
+    padding-right: .5rem;
+}
+
+.recipe-info{
+    display: flex;
+    padding-top:.75rem;
+}
+
+/*flex-direction: column; when a certain size*/
+
+
+.subtitle{
+    width: 33%;
+    font-size: 6rem;
+    font-weight: 400;
+    padding-top: 25px;
+    font-weight: 600;
+}
+
+@media (max-width: 1560px){
+    .knife{ display: none; }
+    .subtitle {font-size: 4rem;}
+}
+
+.knife{
+    width: 55%;
+    justify-content: right;
+    padding-right: 0;
+    padding-top: 15px;
+    margin-left: 100px;
+}
+
+.ing-header{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#indredients{
+    margin-top: 15px;
+}
+
+h2, h3{
+    margin: 0;
+}
+
+h3{
+    font-weight: 300;
+}
+
+.ing-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ing-card{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 1%;
+    padding: 1%;
+    /*border: 1px solid black ;
+    border-radius: 1rem;*/
+
+}
+.ing-img{
+    height: 13rem;
+    margin: auto;
+}
+
+.ing-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width:1715px){
+    .ing-card{width: 20%;}
+}
+@media (max-width:1437px){
+    .ing-card{width: 29%;}
+}
+@media (max-width:1000px){
+    .ing-card{width: 45%;}
+}
+
+
