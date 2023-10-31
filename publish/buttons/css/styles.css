@@ -1,0 +1,373 @@
+html{
+    background-color: white;
+    text-decoration: none;
+}
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#ig-logo{
+    width: 90%;
+    height: 90%;
+    position: relative;
+    top: 7px;
+    z-index: 999;
+}
+
+
+.ig-bg{
+    width: 55%;
+    height: 55%;
+    background: radial-gradient(56.25% 56.25% at 73.85% 4.76%, #6821F5 0%, #6B20F5 13%, #932BF5 37%, #DD38C7 61%, #E93362 100%), radial-gradient(111.48% 111.48% at -761.17% -1507.10%, rgba(255, 200, 0, 0.789) 18%, rgba(235, 76, 68, 0.40) 100%);
+    border-radius: 45px;
+    margin: auto;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+@keyframes ig-bg {
+    from { background:radial-gradient(56.25% 36.25% at 53.85% 30.76%, #6821F5 0%, #6B20F5 13%, #932BF5 37%, #DD38C7 61%, #E93362 90%);}
+    12.5% {background: radial-gradient(46.25% 46.25% at 63.85% 40.76%, #6821F5 0%, #6B20F5 14%, #932BF5 40%, #DD38C7 61%, #E93362 87%);}
+    25% {background: radial-gradient(36.25% 56.25% at 73.85% 50.76%, #6821F5 0%, #6B20F5 15%, #932BF5 45%, #DD38C7 61%, #E93362 84%);}
+    37.5% {background: radial-gradient(36.25% 66.25% at 83.85% 60.76%, #6821F5 0%, #6B20F5 15%, #932BF5 45%, #DD38C7 61%, #E93362 84%);}
+    50% {background: radial-gradient(26.25% 76.25% at 73.85% 70.76%, #6821F5 0%, #6B20F5 15%, #932BF5 45%, #DD38C7 61%, #E93362 84%);}
+    62.5% {background: radial-gradient(16.25% 86.25% at 63.85% 80.76%, #6821F5 0%, #6B20F5 15%, #932BF5 45%, #DD38C7 61%, #E93362 84%);}
+    75% {background: radial-gradient(26.25% 96.25% at 53.85% 90.76%, #6821F5 0%, #6B20F5 15%, #932BF5 45%, #DD38C7 61%, #E93362 84%);}
+    87.5% {background: radial-gradient(36.25% 86.25% at 43.85% 100.76%, #6821F5 0%, #6B20F5 15%, #932BF5 45%, #DD38C7 61%, #E93362 84%);}
+    to {background: radial-gradient(36.25% 76.25% at 33.85% 102.76%, #6821F5 0%, #6B20F5 16%, #932BF5 50%, #DD38C7 61%, #E93362 80%);}
+}
+.ig-bg:hover{
+    display: block;
+    animation-name: ig-bg;
+    animation-duration: .7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width: 60%;
+    height: 60%;
+    border-radius: 50px;
+    margin: auto;
+    transition: all 0.1s ease-in-out;
+}
+
+.ig-bg:active{
+    width: 55%;
+    height: 55%;
+    border-radius: 45px;
+    margin: auto;
+    animation-play-state: paused;
+    transition: 0s;
+}
+
+#ny{
+    width: 50%;
+    margin: auto;
+    transition: width .5s ease-in-out;
+   
+}
+
+#nylogo{
+    height: 15px;
+    align-items: center;
+    transition: height .5s ease-in-out;
+    
+}
+
+.ny:hover #ny{
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    transition: all .5s ease-in-out;
+}
+
+.ny:hover #nylogo{
+    height: 24px;
+    transition: .5s ease-in-out;
+    align-items: center;
+}
+
+.ny:active #ny{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    transition: all 0s ease-in-out;
+}
+
+
+
+.nike{
+    font-size: 365%;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    color: #333;
+    letter-spacing: 4px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid #333;
+}
+
+.nike:hover{
+    color: rgba(174,247,55, 1);
+    background-color: #333;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.nike:active{
+    color:  #333;
+    background-color: rgba(174,247,55, 1);
+    border: none;
+}
+
+#cokelogo{
+    width: 100%;
+   
+}
+
+.coke{
+    background-color: #F40009;
+    padding: 10px;
+}
+
+.coke:hover{
+    background-color: #7D7C7C;
+}
+
+.coke:hover #cokelogo{
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.coke:active{
+    background-color: rgba(166, 138, 91, 1);
+}
+
+#ibm-bee{
+    width: 75%;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+}
+
+#ibm-bee-outline, #ibm-bee-black{
+    display: none;
+}
+
+.ibm:hover #ibm-bee{
+    display: none;
+}
+
+.ibm:hover #ibm-bee-outline{
+    display: block;
+    width: 75%;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+}
+
+.ibm:active #ibm-bee-black{
+    display: block;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.ibm:active #ibm-bee-outline{
+    display: none;
+}
+
+.p-left, .p-right{
+    height: 175px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-left: -12.5px;
+    margin-right: -12.5px;
+}
+
+.p-left{
+    top: 0px;
+    transition: all 1s ease-in-out;
+}
+
+.p-right{
+    top: 20px;
+    transition: all 1s ease-in-out;
+}
+
+.pasta:hover .p-left{
+    top: 20px;
+    transition: all 1s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.pasta:hover .p-right{
+    top: 0px;
+    transition: all 1s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#pastaria{
+    color: #f04924;
+    font-family: Oswald;
+    font-size: 36px;
+}
+
+.pasta:hover #pastaria{
+    color: #064047;
+    font-family: Oswald;
+    font-size: 36px;
+}
+
+.pasta:active .p-left, .p-right{
+    height: 170px;
+}
+
+.pasta:active #pastaria{
+    font-size: 34px;
+}
+
+#jf{
+    width: 50%;
+    transition: all 2s ease-in-out;
+}
+
+.jf:hover #jf{
+    rotate: 360deg;
+    transition: all 2s ease-in-out;
+}
+.jf:hover #jf{
+    rotate: 360deg;
+    transition: all 3s ease-in-out;
+}
+.jf:active #jf{
+    rotate: 0deg;
+    transition: all .15s ease-in-out;
+}
+
+#lyft{		
+    width: 75%;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#lyft-white{
+    display:none;
+}
+
+.lyft:hover #lyft-white{
+    display: block;
+    width: 75%;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 0;
+}
+
+.lyft:hover #lyft{
+    display: none;
+}
+
+.lyft:active #lyft-white{
+    display: block;
+    width: 75%;
+    background-color: #FF00BF;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 0;
+}
+
+#on-1, #on-2{
+    width: 75%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    transition: all 1s;
+}
+
+#on-2{
+    display: none;
+    transition: all 1s;
+}
+
+.on:hover #on-2{
+    display: block;
+    width: 90%;
+    transition: all 1s;
+
+}
+
+.on:hover #on-1{
+    display: none;
+    transition: all 1s;
+}
+
+.on:active #on-2{
+    width: 70%;
+    transition: all .1s;
+}
+
+#nerf{
+    width: 75%;
+    margin: auto;
+    rotate: -5deg;
+}
+
+.nerf:hover #nerf{
+    rotate: 0deg;
+}
+
+#bullet{
+    width: 50px;
+    position: relative;
+    left: -100px;
+    top: -48px;
+    z-index: -1;
+}
+
+
+
+@keyframes bullet {
+    from {left: -100px;}
+    12.5% {left: -80px;}
+    25% {left: -60px;}
+    37.5% {left: -40px;}
+    50% {left: -20px;}
+    62.5% {left: 0px;}
+    75% {left: 100px;}
+    87.5% {left: 300px;}
+    to {left: 400px;}
+}
+
+.nerf:hover #bullet{
+   
+    animation-name: bullet;
+    animation-duration: .3s;
+}
