@@ -299,14 +299,14 @@ h2 {
         background-color: #CFD8D7;
         outline: none;
         border: 1.5px solid #1F2E3E;
-        border-radius: 10px;
+        border-radius: 0px;
         cursor: pointer;
     }
 
     /* This is what the button.controls element looks like when its parent, #drawer, has the .open class applied to it */
     #drawer.open button.controls {
         background-color: #1F2E3E;
-        border-radius: 100px;
+        border-radius: 0px;
     }
 
     .fa-bars:before {
